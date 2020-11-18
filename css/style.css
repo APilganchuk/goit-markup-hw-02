@@ -5,10 +5,16 @@
 
 
 }
+* {
+    padding: 0;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #E5E5E5;
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
+    
+    
 }
 ul {
     list-style: none;
@@ -34,7 +40,8 @@ a {
 
 }
 .nav .link {
-    font-weight: 400;
+    
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -52,6 +59,7 @@ a {
 
 }
 .auth-nav .link {
+    
     font-weight: 500;
     font-style: normal;
     font-size: 14px;
@@ -168,7 +176,7 @@ a {
 .list-btn:hover ,
 .list-btn:focus {
     color: #FFFFFF;
-    background: #2196F3;
+    background: var(--accent-text-color);
    
 }                           
 .section .list-btn {
@@ -193,5 +201,5 @@ a {
     line-height: 1.88;
     letter-spacing: 0.03em;
 
-    color: #757575;
+    color: var(--primary-text-color)
 }
